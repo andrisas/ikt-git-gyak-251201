@@ -1,3 +1,4 @@
+
 body{
     background-color: burlywood;
     font-family: Arial, sans-serif;
@@ -9,4 +10,7 @@ body{
 
 Body{
 	backgound-color: nigh
+
+* {
+  cursor: help;
 }
