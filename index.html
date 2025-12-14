@@ -3,20 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Pingvinek</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/domi.css">
 </head>
 
-<body>
-    
-<header>
-    <h1>Pingvinek 🐧</h1>
-</header>
+<body data-bs-spy="scroll" data-bs-target="#chapter-sb" data-bs-smooth-scroll="true" tabindex="0" data-bs-offset="3">
 
-<nav>
-    <ul>
-        <li><a href="#altalanos">Általános</a></li>
-        <li><a href="#fajok">Fajok</a></li>
-        <li><a href="#erdekesseg">Érdekességek</a></li>
-    </ul>
+<nav class="navbar navbar-light navbar-expand-md bg-primary fixed-top">
+    <a class="navbar-brand" href="#">Pingvinek</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="info.html">Több infó</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<nav class="nav flex-column sidebar d-none d-md-block nav-pills" id="chapter-sb">
+    <a class="nav-link" href="#altalanos">Általános</a>
+    <a class="nav-link" href="#fajok">Fajok</a>
+    <a class="nav-link" href="#erdekesseg">Érdekességek</a>
 </nav>
 
 <main>
@@ -53,7 +68,7 @@
 </footer>
 
 
-
+<script src="bootstrap/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
