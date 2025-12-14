@@ -1,0 +1,42 @@
+/* a bootstrap nem tud 15rem-et sajnos */
+@media (min-width: 768px) {
+    main {
+        padding-right: 15rem !important;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(200%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+#chapter-sb {
+    position: fixed;
+    top: 56px; 
+    bottom: 0;
+    right:0;
+    width: 15rem;
+    padding: 1rem;
+    overflow-y: auto;
+    background-color: gray;
+    animation: slideIn 0.5s ease-out forwards;
+    z-index: 1;
+}
+
+main{
+    padding-top: 56px;
+}
+
+body {
+    position: relative;
+}
+
+.nav-link {
+    color: white;
+}
