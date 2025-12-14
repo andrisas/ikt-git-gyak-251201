@@ -40,3 +40,6 @@ body {
 .nav-link {
     color: white;
 }
+thead{
+    text-align: center;
+}
